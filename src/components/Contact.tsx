@@ -1,6 +1,6 @@
 "use client"; // Required for Next.js App Router
 
-import { FaEnvelope, FaGlobe, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaEnvelope, FaGlobe, FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const ContactForm = () => {

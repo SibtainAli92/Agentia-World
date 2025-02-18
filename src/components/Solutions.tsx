@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Bot, Server, Shield } from 'lucide-react';
+import { Server, Shield } from 'lucide-react';
 import { Globe } from "lucide-react";
 
 
