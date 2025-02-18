@@ -17,8 +17,8 @@ const PriceCard = ({title , price ,buttonStyle , boxStyle , offer}:cardItem) => 
         <p className='text-4xl font-bold'>${price}</p>
         <p className='text-gray-500'>month</p>
       </span>
-      {offer.map((item) => (
-      <div className='flex gap-2 items-center'>
+      {offer.map((item, index) => (
+      <div className='flex gap-2 items-center' key={index}>
        <CheckCircle className="w-6 h-6 text-purple-500 animate-pulse" />
         <p className='text-lg'>{item}</p>
       </div>
